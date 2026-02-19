@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Home</title>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Bookstore</h1>
+        
+        <div style="text-align: center; margin-bottom: 30px;">
+            <a href="/books"><button>View All Books</button></a>
+        </div>
+
+        <h2>Search Books</h2>
+        <form action="/books/search" method="GET">
+            <input type="text" name="name" placeholder="Enter book name..." required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
